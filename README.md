@@ -1,1 +1,1 @@
-# Quenya-SMT-
+# Quenya-SMT
