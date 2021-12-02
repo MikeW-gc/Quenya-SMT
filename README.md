@@ -1,12 +1,21 @@
 # Quenya-SMT
 A Quenya-English statistical machine translator trained on the parallel corpora : both the new testament and the old testament.(link: https://folk.uib.no/hnohf/nqnt.htm)
 
+# Method
+same as working with other languages with Moses
 
+# Result
+Evaluation result using bleu
+BLEU = 5.31, 33.6/9.5/3.1/0.8 (BP=1.000, ratio=1.339, hyp_len=1667, ref_len=1245)
 
+The result of the translator is not ideal, it could still be improved.
+The most important reason should be the lack of a large corpus: the current data I worked on has only 914 sentences (although almost all of them are quite long.), more importantly, because all of the datas are Quenya translation of the bible, the vocabulary of the langaueg model is very limited. Not only that it doesn't contain vocabularies associated with mordernity, but there is also a lack of common everyday use vocabulary.
 
+# Example translated sentence
+input: "There is no such a thing as god."
+output: "Lá ea taite nat ve eru."
 
-
-**Phrase Table**
+# Phrase Table
 Below is part of the English-Quenya phrase-table
 ! 12 but when ||| ! 12 mal íre ||| 1 0.472195 1 0.782111 ||| 0-0 1-1 2-2 3-3 ||| 1 1 1 ||| |||
 ! 12 but ||| ! 12 mal ||| 1 0.472195 1 0.782111 ||| 0-0 1-1 2-2 ||| 1 1 1 ||| |||
