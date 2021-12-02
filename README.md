@@ -1,5 +1,5 @@
 # Quenya-SMT
-A Quenya-English statistical machine translator trained on the parallel corpora : both the new testament and the old testament.(link: https://folk.uib.no/hnohf/nqnt.htm)
+A Quenya-English statistical machine translator (from English to Quenya) trained on the parallel corpora : both the new testament and the old testament.(link: https://folk.uib.no/hnohf/nqnt.htm)
 
 # Method
 same as working with other languages with Moses, a more specific demonstration is included in the Code.ipynb file.
@@ -12,9 +12,14 @@ The result of the translator is not ideal, it could still be improved.(implement
 The most important reason should be the lack of a large corpus: the current data I worked on has only 914 sentences (although almost all of them are quite long.), more importantly, because all of the datas are Quenya translation of the bible, the vocabulary of the langaueg model is very limited. Not only that it doesn't contain vocabularies associated with mordernity, but there is also a lack of common everyday use vocabulary.
 
 # Example translated sentence
-input: "There is no such a thing as god."
+Input: "There is no such a thing as god."
 
-output: "Lá ea taite nat ve eru."
+Output: "Lá ea taite nat ve eru."
+
+Input: "The person who gets there first will receive a bread as reward."
+
+Output: "I quén ye gets tasse minyave camuva  massa ve  paityale."
+
 
 # Phrase Table
 Below is part of the English-Quenya phrase-table
