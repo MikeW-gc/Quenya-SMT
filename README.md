@@ -8,11 +8,12 @@ same as working with other languages with Moses
 Evaluation result using bleu
 BLEU = 5.31, 33.6/9.5/3.1/0.8 (BP=1.000, ratio=1.339, hyp_len=1667, ref_len=1245)
 
-The result of the translator is not ideal, it could still be improved.
+The result of the translator is not ideal, it could still be improved.(implementing the same method on 2 high-resource languages easily yield BLUE result around 20)
 The most important reason should be the lack of a large corpus: the current data I worked on has only 914 sentences (although almost all of them are quite long.), more importantly, because all of the datas are Quenya translation of the bible, the vocabulary of the langaueg model is very limited. Not only that it doesn't contain vocabularies associated with mordernity, but there is also a lack of common everyday use vocabulary.
 
 # Example translated sentence
 input: "There is no such a thing as god."
+
 output: "Lá ea taite nat ve eru."
 
 # Phrase Table
