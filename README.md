@@ -44,3 +44,7 @@ Below is part of the English-Quenya phrase-table
 ! 12 you are not in ||| ! 12 elde uar mi ||| 0.5 0.472195 1 0.782111 ||| 0-0 1-1 2-2 3-3 4-3 5-4 ||| 2 1 1 ||| |||
 ! 12 you are not ||| ! 12 elde uar ||| 1 0.472195 1 0.782111 ||| 0-0 1-1 2-2 3-3 4-3 ||| 1 1 1 ||| |||
 ! 12 you ||| ! 12 elde ||| 1 0.472195 1 0.782111 ||| 0-0 1-1 2-2 ||| 1 1 1 ||| |||
+
+# Future Improvement
+Somethings worth to work on is to incorporate more datas into the training corpus. I'm thinking about taking some Quenya poems & dictionary into account to enrich  the lexicon of the current model.
+
