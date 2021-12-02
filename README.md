@@ -2,7 +2,7 @@
 A Quenya-English statistical machine translator trained on the parallel corpora : both the new testament and the old testament.(link: https://folk.uib.no/hnohf/nqnt.htm)
 
 # Method
-same as working with other languages with Moses
+same as working with other languages with Moses, a more specific demonstration is included in the Code.ipynb file.
 
 # Result
 Evaluation result using bleu
